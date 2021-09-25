@@ -1,0 +1,29 @@
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-items {
+  height: 40vh;
+  width: 25vw;
+  margin: 1%;
+  padding: 1%;
+  border: 0.5px solid black;
+}
+
+.grid-items img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .grid-container {
+    flex-direction: column;
+  }
+
+  .grid-items {
+    height: 100%;
+    width: 100%;
+  }
+}
