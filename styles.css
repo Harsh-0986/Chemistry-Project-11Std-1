@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 5vh 0;
 }
 
 .grid-items {
@@ -26,4 +27,8 @@
     height: 30vh;
     width: 100%;
   }
+}
+
+.m-4 {
+  margin: 4vh 0;
 }
